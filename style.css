@@ -237,7 +237,7 @@ background: var(--bg-section);
     padding: 1rem 0rem;
   }
  .nav-links a{
-  font-size: 0.95rem;
+  font-size: 1.2rem;
  }
   .nav-links.show{
     display: flex;
@@ -252,7 +252,7 @@ background: var(--bg-section);
     width: 40px;
   }
   #theme-toggle i{
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -424,7 +424,7 @@ background: var(--bg-section);
     font-size: 2rem;
   }
   .about-hero p{
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   
   /*card*/
@@ -700,12 +700,14 @@ background: var(--bg-section);
   font-size: 1rem;
   border: 1px solid #ddd;
   background: var(--bg-section);
+  color: var(--text-secondary);
 
 }
 
-.contact-form input:focus, .contact-form textarea:focus{
+.contact-form input:focus,
+.contact-form textarea:focus {
   outline: none;
-  border-color: 1px solid var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 
@@ -760,4 +762,5 @@ background: var(--bg-section);
     padding-left: 1.2rem;
     padding-right: 1.2rem;
   }
+
 }
